@@ -38,10 +38,6 @@ class Square : public Rectangle
 {
 public:
     Square(double x);
-    // virtual double getArea() const;
-    // virtual double getPerimeter() const;
-    // // virtual double getLongestSegmentLength() const;
-    // // virtual double getSmallestSegmentLength() const;
 };
 
 class Triangle : public Polygon
@@ -88,6 +84,3 @@ class Circle : public Oval
 public:
     Circle(double r);
 };
-
-// wwyd, fix this code, pros and cons
-// no keywords, not much memorization, no syntax
